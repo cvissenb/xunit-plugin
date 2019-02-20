@@ -101,6 +101,8 @@ THE SOFTWARE.
             <xs:attribute name="time" type="xs:string"/>
             <xs:attribute name="classname" type="xs:string"/>
             <xs:attribute name="group" type="xs:string"/>
+            <xs:attribute name="file" type="xs:string"/>
+            <xs:attribute name="line" type="xs:string"/>
         </xs:complexType>
     </xs:element>
 
@@ -120,6 +122,7 @@ THE SOFTWARE.
             <xs:attribute name="group" type="xs:string" />
             <xs:attribute name="time" type="SUREFIRE_TIME"/>
             <xs:attribute name="skipped" type="xs:string" />
+            <xs:attribute name="skips" type="xs:string" />
             <xs:attribute name="timestamp" type="xs:string" />
             <xs:attribute name="hostname" type="xs:string" />
             <xs:attribute name="id" type="xs:string" />
